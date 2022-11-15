@@ -1,0 +1,3 @@
+Je vais les mettre si j'y pense mais il suffit d'installer Tkinter :
+
+pip3 install Tkinter
