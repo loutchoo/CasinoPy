@@ -258,5 +258,5 @@ def about():
     #afficher la fenêtre
     window.mainloop()
 
-
+#démarrage le programme
 home()

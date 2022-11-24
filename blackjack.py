@@ -5,38 +5,9 @@ import time
 
 #Je définis toutes les cartes
 suits = ("Piques ♠", "Trèfles ♣", "Coeurs ♥", "Carreaux ♦")
-ranks = (
-    "1",
-    "2",
-    "3",
-    "4",
-    "5",
-    "6",
-    "7",
-    "8",
-    "9",
-    "10",
-    "J",
-    "Q",
-    "K",
-    "A",
-)
+ranks = ("1","2","3","4","5","6","7","8","9","10","J","Q","K","A",)
 #Je définis la valeur de chacunes de ces cartes
-values = {
-    "2": 2,
-    "3": 3,
-    "4": 4,
-    "5": 5,
-    "6": 6,
-    "7": 7,
-    "8": 8,
-    "9": 9,
-    "10": 10,
-    "J": 10,
-    "Q": 10,
-    "K": 10,
-    "A": 11,
-}
+values = {"2": 2,"3": 3,"4": 4,"5": 5,"6": 6,"7": 7,"8": 8,"9": 9,"10": 10,"J": 10,"Q": 10,"K": 10,"A": 11,}
 
 playing = True
 
@@ -160,7 +131,6 @@ def push(player, dealer):
 while True:
     print("\n----------------------------------------------------------------")
     print("                ♠♣♥♦ CasinoPy Casino ♠♣♥♦")
-    print("                         Jouons !")
     print("----------------------------------------------------------------")
     print(
         "Règles:  se rapprocher autant de 21 sans le dépasser pour avoir des chances de gagner !\n\
